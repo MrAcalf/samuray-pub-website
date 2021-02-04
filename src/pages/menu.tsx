@@ -3,7 +3,7 @@ import React from 'react';
 import { Meta } from '../layout/Meta';
 import { Main } from '../templates/Main';
 
-const About = () => (
+const Menu = () => (
   <Main meta={<Meta title="Lorem ipsum" description="Lorem ipsum" />}>
     <p>
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga recusandae quidem.
@@ -18,4 +18,4 @@ const About = () => (
   </Main>
 );
 
-export default About;
+export default Menu;
