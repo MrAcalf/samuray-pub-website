@@ -6,23 +6,26 @@
     "build": "next build",
     "start": "next start",
     "build-stats": "ANALYZE=true npm run build",
-    "export": "next export -o dist",
+    "export": "cross-env export -o dist",
     "build-prod": "run-s clean build export",
     "clean": "rimraf .next dist",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ."
   },
   "dependencies": {
+    "https-localhost": "^4.6.4",
     "next": "^10.0.4",
     "next-seo": "^4.17.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-player": "^2.8.2",
+    "styled-components": "^5.2.1",
     "styled-jsx-plugin-postcss": "^4.0.0"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^10.0.4",
     "@types/node": "^14.14.19",
     "@types/react": "^17.0.0",
+    "@types/styled-components": "^5.1.7",
     "@typescript-eslint/eslint-plugin": "^4.11.1",
     "autoprefixer": "^10.1.0",
     "eslint": "^7.17.0",
