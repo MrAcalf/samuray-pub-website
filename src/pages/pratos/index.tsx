@@ -74,7 +74,7 @@ const Menu = () => (
               height={500}
             />
             <p className="text-sm text-justify md:w-3/4">
-              Risoto feito no caldo do polvo com pedacinhos de polvo com sabor
+              Arroz de polvo feito no caldo do polvo com pedacinhos de polvo com sabor
               bem temperado. Um prato com sabor do mar. Serve duas pessaos.
             </p>
           </div>
@@ -84,7 +84,7 @@ const Menu = () => (
           <div className="flex flex-col sm:flex-row gap-3 md:gap-5">
             <Image
               className="sm: w-full md:w-1/4"
-              src="/camarao_porcao.jpeg"
+              src="/camarao.jpg"
               alt="Foto de Samuray em frente ao bar"
               width={500}
               height={500}

@@ -2,6 +2,7 @@ import React, { ReactNode } from 'react';
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { FaWhatsapp } from 'react-icons/fa';
 
 import { Config } from '../utils/Config';
 
@@ -28,7 +29,7 @@ const Main = (props: IMainProps) => (
           </div>
         </div>
         <div>
-          <ul className="flex flex-wrap text-lg 2xl:text-3xl">
+          <ul className="flex flex-wrap text-lg 2xl:text-3xl items-center">
             <li className="mr-6">
               <Link href="/">
                 <a className="text-gray-900 font-semibold hover:bg-yellow-500 p-3 transition-colors ease-linear border-none hover:text-gray-900">Home</a>
@@ -37,6 +38,15 @@ const Main = (props: IMainProps) => (
             <li className="mr-6">
               <Link href="/pratos/">
                 <a className="text-gray-900 font-semibold hover:bg-yellow-500 p-3 transition-colors ease-linear border-none hover:text-gray-900">Pratos</a>
+              </Link>
+            </li>
+            <li className="mr-6">
+              <Link href="https://api.whatsapp.com/send?phone=558198798853">
+                <a target="_blank" className="text-gray-900 font-semibold hover:bg-yellow-500 p-3 transition-colors ease-linear border-none hover:text-gray-900 flex items-center">
+                  <FaWhatsapp className="pr-1" />
+                  {' '}
+                  Delivery
+                </a>
               </Link>
             </li>
           </ul>
