@@ -35,8 +35,8 @@ const Main = (props: IMainProps) => (
               </Link>
             </li>
             <li className="mr-6">
-              <Link href="/menu/">
-                <a className="text-gray-900 font-semibold hover:bg-yellow-500 p-3 transition-colors ease-linear border-none hover:text-gray-900">Menu</a>
+              <Link href="/pratos/">
+                <a className="text-gray-900 font-semibold hover:bg-yellow-500 p-3 transition-colors ease-linear border-none hover:text-gray-900">Pratos</a>
               </Link>
             </li>
           </ul>
@@ -45,21 +45,27 @@ const Main = (props: IMainProps) => (
 
       <div className="pt-5 text-xl content">{props.children}</div>
 
-      <div className="border-t border-gray-300 text-center py-8 text-sm">
-        © Copyright
-        {' '}
-        {new Date().getFullYear()}
-        {' '}
-        {Config.title}
-        . Design Por
-        {' '}
-        <span role="img" aria-label="Love">
-          ♥
-        </span>
-        {' '}
-        by
-        {' '}
-        <a href="https://mra.eti.br/">MRA Web Design</a>
+      <div className="border-t border-gray-300 text-center py-8 text-sm h-24">
+        <p className="flex justify-center place-items-center items-center">
+          © Copyright
+          {' '}
+          {new Date().getFullYear()}
+          {' '}
+          {Config.title}
+          . Design Por:
+          {' '}
+          <span role="img" aria-label="mra-logo">
+            {' '}
+            <a href="tel:+12983213301" className="px-2">
+              <Image
+                src="/mra-logo.png"
+                alt="Logo Bar do Samuray"
+                width={24}
+                height={24}
+              />
+            </a>
+          </span>
+        </p>
       </div>
     </div>
   </div>

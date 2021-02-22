@@ -19,7 +19,7 @@ const Index = () => (
     {/* Vídeo do bar */}
     <div className="text-center place-items-center">
       <h1 className="md:text-5xl text-3xl">Bar do Samuray</h1>
-      <h2 className="md:text-lg 2xl:text-3xl">
+      <h2 className="md:text-lg 2xl:text-3xl px-3">
         Bar do Samuray é o restaurante de frutos do mar que serve o
         melhor siri mole do mundo na Brasília Teimosa em Recife - PE.
       </h2>
