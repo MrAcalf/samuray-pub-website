@@ -43,11 +43,6 @@
     "tailwindcss": "^2.0.2",
     "typescript": "^4.1.3"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "prettier --write",
