@@ -88,7 +88,7 @@ const Index = () => (
     <div className="text-center place-items-center bg-yellow-300 py-3 2xl:text-3xl">
       <h1 className="text-3xl md:text-5xl">Horário de funcinamento</h1>
       <p>Atendimento das 10:30 às 20:00.</p>
-      <p>Reservas pelo telefone (81) 99879 8853</p>
+      <p>Reservas pelo whatsapp (81) 99879 8853</p>
     </div>
   </Main>
 );
